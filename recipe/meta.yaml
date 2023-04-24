@@ -26,6 +26,7 @@ requirements:
     - chafer
     - napari
     - opencv
+    - quoll >=0.0.4
 
 test:
   imports:
