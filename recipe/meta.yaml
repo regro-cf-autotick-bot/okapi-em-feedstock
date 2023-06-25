@@ -1,5 +1,5 @@
 {% set name = "okapi-em" %}
-{% set version = "0.0.4" %}
+{% set version = "0.0.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/okapi-em-{{ version }}.tar.gz
-  sha256: 86989fc08b69e171f02b4d3960ed66ad728cc5a93c10c24b6cb5bc5ef3c00a16
+  sha256: 0fb6063d68cecbe03045f9a195233e7d797560e1d1c020047c7e398bbdd1aa4c
 
 build:
   noarch: python
